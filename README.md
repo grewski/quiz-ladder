@@ -22,6 +22,16 @@ http://localhost:4173/?quiz=kanban-guide
 
 When hosted, use the same pattern with your public site URL.
 
+## Deploy to GitHub Pages
+
+Use GitHub Pages' branch deploy mode with the visible `docs` folder:
+
+1. Upload the whole `docs` folder to your repository.
+2. In GitHub, go to **Settings > Pages**.
+3. Set **Build and deployment > Source** to **Deploy from a branch**.
+4. Choose branch `main` and folder `/docs`.
+5. Save.
+
 ## Add another quiz
 
 1. Create a new JSON file in `quizzes/`.
