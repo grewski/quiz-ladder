@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Quiz Ladder</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <main class="app-shell">
+      <section class="stage" aria-live="polite">
+        <div class="top-bar">
+          <div>
+            <p class="eyebrow">Quiz Ladder</p>
+            <h1 id="quizTitle">Choose a quiz</h1>
+          </div>
+          <button class="ghost-button" id="homeButton" type="button" hidden>All quizzes</button>
+        </div>
+
+        <div id="app" class="app-panel">
+          <div class="lobby">
+            <p class="lobby-intro">
+              Pick a quiz, climb the ladder, and lock in an answer. Each quiz is powered by a separate JSON file, so this can host as many quiz sets as you want.
+            </p>
+            <div class="quiz-grid">
+              <button class="quiz-card" type="button" data-quiz-id="general-knowledge">
+                <h2>General Knowledge</h2>
+                <p>A classic pub-quiz style ladder with history, science, geography, and culture.</p>
+                <div class="quiz-meta">
+                  <span class="pill">12 questions</span>
+                  <span class="pill">Mixed</span>
+                </div>
+                <span class="quiz-start">Start quiz</span>
+              </button>
+              <button class="quiz-card" type="button" data-quiz-id="web-basics">
+                <h2>Web Basics</h2>
+                <p>HTML, CSS, JavaScript, and browser fundamentals for new developers.</p>
+                <div class="quiz-meta">
+                  <span class="pill">10 questions</span>
+                  <span class="pill">Technology</span>
+                </div>
+                <span class="quiz-start">Start quiz</span>
+              </button>
+              <button class="quiz-card" type="button" data-quiz-id="kanban-guide">
+                <h2>The Kanban Guide</h2>
+                <p>Definitions, practices, metrics, and flow concepts from The Kanban Guide.</p>
+                <div class="quiz-meta">
+                  <span class="pill">16 questions</span>
+                  <span class="pill">Kanban</span>
+                </div>
+                <span class="quiz-start">Start quiz</span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <aside class="ladder-panel" aria-label="Prize ladder">
+        <div class="ladder-header">
+          <span>Prize Ladder</span>
+          <strong id="safeLevel">Start</strong>
+        </div>
+        <ol id="moneyLadder" class="money-ladder"></ol>
+      </aside>
+    </main>
+
+    <template id="loadingTemplate">
+      <div class="center-state">
+        <div class="pulse-ring" aria-hidden="true"></div>
+        <p>Loading quizzes...</p>
+      </div>
+    </template>
+
+    <template id="errorTemplate">
+      <div class="center-state">
+        <h2>Something needs attention</h2>
+        <p id="errorMessage"></p>
+        <button class="primary-button" type="button" data-action="reload">Try again</button>
+      </div>
+    </template>
+
+    <script src="app.js"></script>
+  </body>
+</html>

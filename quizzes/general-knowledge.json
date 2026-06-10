@@ -1,0 +1,93 @@
+{
+  "id": "general-knowledge",
+  "title": "General Knowledge",
+  "description": "A classic pub-quiz style ladder with history, science, geography, and culture.",
+  "moneyLadder": [
+    "$100",
+    "$200",
+    "$300",
+    "$500",
+    "$1,000",
+    "$2,000",
+    "$4,000",
+    "$8,000",
+    "$16,000",
+    "$32,000",
+    "$64,000",
+    "$125,000"
+  ],
+  "questions": [
+    {
+      "question": "Which planet is known as the Red Planet?",
+      "answers": ["Venus", "Mars", "Jupiter", "Mercury"],
+      "correctIndex": 1,
+      "explanation": "Mars looks reddish because iron minerals in its surface oxidize."
+    },
+    {
+      "question": "What is the capital city of Canada?",
+      "answers": ["Toronto", "Vancouver", "Ottawa", "Montreal"],
+      "correctIndex": 2,
+      "explanation": "Ottawa is Canada's capital city."
+    },
+    {
+      "question": "In which sport would you perform a slam dunk?",
+      "answers": ["Basketball", "Tennis", "Rugby", "Cricket"],
+      "correctIndex": 0,
+      "explanation": "A slam dunk is a basketball shot made by jumping and pushing the ball through the hoop."
+    },
+    {
+      "question": "Who wrote the play Romeo and Juliet?",
+      "answers": ["Charles Dickens", "William Shakespeare", "Jane Austen", "Oscar Wilde"],
+      "correctIndex": 1,
+      "explanation": "Romeo and Juliet is one of Shakespeare's best-known tragedies."
+    },
+    {
+      "question": "What is the chemical symbol for gold?",
+      "answers": ["Ag", "Au", "Gd", "Go"],
+      "correctIndex": 1,
+      "explanation": "Au comes from the Latin word aurum."
+    },
+    {
+      "question": "Which ocean is the largest by surface area?",
+      "answers": ["Atlantic Ocean", "Indian Ocean", "Arctic Ocean", "Pacific Ocean"],
+      "correctIndex": 3,
+      "explanation": "The Pacific Ocean is larger than all other oceans."
+    },
+    {
+      "question": "What year did the first moon landing take place?",
+      "answers": ["1965", "1969", "1972", "1977"],
+      "correctIndex": 1,
+      "explanation": "Apollo 11 landed on the Moon on July 20, 1969."
+    },
+    {
+      "question": "Which instrument measures atmospheric pressure?",
+      "answers": ["Thermometer", "Hygrometer", "Barometer", "Anemometer"],
+      "correctIndex": 2,
+      "explanation": "A barometer measures atmospheric pressure."
+    },
+    {
+      "question": "The artist Frida Kahlo was born in which country?",
+      "answers": ["Spain", "Mexico", "Argentina", "Peru"],
+      "correctIndex": 1,
+      "explanation": "Frida Kahlo was born in Coyoacan, Mexico City."
+    },
+    {
+      "question": "What is the longest river in the world by most traditional measurements?",
+      "answers": ["Amazon", "Nile", "Yangtze", "Mississippi"],
+      "correctIndex": 1,
+      "explanation": "The Nile is traditionally listed as the longest river, though the Amazon is sometimes debated."
+    },
+    {
+      "question": "Which language has the most native speakers worldwide?",
+      "answers": ["English", "Spanish", "Mandarin Chinese", "Hindi"],
+      "correctIndex": 2,
+      "explanation": "Mandarin Chinese has the largest number of native speakers."
+    },
+    {
+      "question": "What is the hardest natural substance on Earth?",
+      "answers": ["Diamond", "Quartz", "Titanium", "Granite"],
+      "correctIndex": 0,
+      "explanation": "Diamond scores 10 on the Mohs hardness scale."
+    }
+  ]
+}

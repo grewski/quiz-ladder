@@ -1,0 +1,186 @@
+{
+  "id": "kanban-guide",
+  "title": "The Kanban Guide",
+  "description": "Definitions, practices, metrics, and flow concepts from The Kanban Guide.",
+  "moneyLadder": [
+    "$100",
+    "$200",
+    "$300",
+    "$500",
+    "$1,000",
+    "$2,000",
+    "$4,000",
+    "$8,000",
+    "$16,000",
+    "$32,000",
+    "$64,000",
+    "$125,000",
+    "$250,000",
+    "$500,000",
+    "$1,000,000",
+    "$2,000,000"
+  ],
+  "questions": [
+    {
+      "question": "What is the definitive definition of Kanban according to the guide?",
+      "answers": [
+        "A framework that mandates 30-day timeboxes.",
+        "A specific software tool used to track individual tasks.",
+        "A strategy for optimizing the flow of value through a process.",
+        "A method for estimating work effort using story points."
+      ],
+      "correctIndex": 2,
+      "explanation": "The guide defines Kanban as a strategy for optimizing the flow of value through a process."
+    },
+    {
+      "question": "How many core practices comprise Kanban when working in tandem?",
+      "answers": ["One", "Two", "Three", "Five"],
+      "correctIndex": 2,
+      "explanation": "Kanban is comprised of three practices working in tandem."
+    },
+    {
+      "question": "In a Kanban system, what is the definition of Flow?",
+      "answers": [
+        "The speed at which developers write code.",
+        "The number of hours a team spends in meetings.",
+        "The movement of potential value through a system.",
+        "The hierarchy of management in an organization."
+      ],
+      "correctIndex": 2,
+      "explanation": "Flow is the movement of potential value through a system."
+    },
+    {
+      "question": "What are the three elements of value optimization that Kanban system members strive to balance?",
+      "answers": [
+        "Speed, Cost, and Quality.",
+        "Scope, Schedule, and Budget.",
+        "Effectiveness, Efficiency, and Predictability.",
+        "Planning, Execution, and Review."
+      ],
+      "correctIndex": 2,
+      "explanation": "Kanban system members strive to balance effectiveness, efficiency, and predictability."
+    },
+    {
+      "question": "Which of the following is one of the three core practices of Kanban?",
+      "answers": [
+        "Sprint Planning.",
+        "Actively managing items in a workflow.",
+        "Estimating relative complexity.",
+        "Assigning tasks to specific individuals."
+      ],
+      "correctIndex": 1,
+      "explanation": "Actively managing items in a workflow is one of the three Kanban practices."
+    },
+    {
+      "question": "What is a Work Item in the context of Kanban?",
+      "answers": [
+        "A specific person assigned to a task.",
+        "An individual unit of value moving through the workflow.",
+        "The physical board used to track progress.",
+        "A meeting held to discuss process improvements."
+      ],
+      "correctIndex": 1,
+      "explanation": "A work item is an individual unit of value moving through the workflow."
+    },
+    {
+      "question": "What is the primary purpose of a Kanban board?",
+      "answers": [
+        "To track the billable hours of each employee.",
+        "To provide a list of all ideas that will never be worked on.",
+        "To visualize the Definition of Workflow (DoW) and make it transparent.",
+        "To replace the need for team communication."
+      ],
+      "correctIndex": 2,
+      "explanation": "A Kanban board visualizes the Definition of Workflow and makes it transparent."
+    },
+    {
+      "question": "Which metric measures the number of work items finished per unit of time?",
+      "answers": ["Work in Progress (WIP).", "Throughput.", "Cycle Time.", "Work Item Age."],
+      "correctIndex": 1,
+      "explanation": "Throughput measures the number of work items finished per unit of time."
+    },
+    {
+      "question": "How is Work In Progress (WIP) defined?",
+      "answers": [
+        "The total number of items in the backlog.",
+        "The number of work items started but not finished.",
+        "The number of items finished in the last month.",
+        "The average time it takes to complete one task."
+      ],
+      "correctIndex": 1,
+      "explanation": "WIP is the number of work items started but not finished."
+    },
+    {
+      "question": "What does Cycle Time represent?",
+      "answers": [
+        "The time a work item spends in the backlog.",
+        "The elapsed time between when a work item started and when it finished.",
+        "The time a team spends in the active working state only.",
+        "The time between two consecutive releases."
+      ],
+      "correctIndex": 1,
+      "explanation": "Cycle Time is the elapsed time between when a work item started and when it finished."
+    },
+    {
+      "question": "Which metric is defined as the elapsed time between when a work item started and the current date?",
+      "answers": ["Lead Time.", "Throughput.", "Work Item Age.", "Flow Efficiency."],
+      "correctIndex": 2,
+      "explanation": "Work Item Age is the elapsed time between when a work item started and the current date."
+    },
+    {
+      "question": "What are the two required components of a Service Level Expectation (SLE)?",
+      "answers": [
+        "A start date and a finish date.",
+        "A period of elapsed time and an associated probability.",
+        "A list of tasks and an assigned resource.",
+        "A story point estimate and a confidence interval."
+      ],
+      "correctIndex": 1,
+      "explanation": "An SLE has a period of elapsed time and an associated probability."
+    },
+    {
+      "question": "What is a fundamental requirement for a Definition of Workflow (DoW)?",
+      "answers": [
+        "It must be approved by an external auditor.",
+        "It must include a list of team members' names.",
+        "It must include a definition of how WIP will be controlled.",
+        "It must be updated exactly every 30 days."
+      ],
+      "correctIndex": 2,
+      "explanation": "A Definition of Workflow must include a definition of how WIP will be controlled."
+    },
+    {
+      "question": "In a Kanban Pull System, when should members start work on a new item?",
+      "answers": [
+        "Whenever a manager requests it.",
+        "As soon as an item is added to the backlog.",
+        "Only when there is a clear signal that there is capacity to do so.",
+        "At the beginning of every week."
+      ],
+      "correctIndex": 2,
+      "explanation": "Members start new work only when there is a clear signal that capacity is available."
+    },
+    {
+      "question": "What is the guide's advice regarding Work Item Age during active management?",
+      "answers": [
+        "Age is irrelevant as long as the item eventually finishes.",
+        "Members should ensure work items do not age unnecessarily, using the SLE as a reference.",
+        "Age should only be calculated for items that have already finished.",
+        "Older items should be discarded immediately without review."
+      ],
+      "correctIndex": 1,
+      "explanation": "Members should ensure work items do not age unnecessarily, using the SLE as a reference."
+    },
+    {
+      "question": "When should improvements to a workflow be implemented?",
+      "answers": [
+        "Only during a formal monthly retrospective.",
+        "Only when mandated by a corporate executive.",
+        "Just-in-time as the context dictates, without needing to wait for a formal meeting.",
+        "Only after at least one year of data collection."
+      ],
+      "correctIndex": 2,
+      "explanation": "Workflow improvements are made just-in-time as the context dictates."
+    }
+  ]
+}

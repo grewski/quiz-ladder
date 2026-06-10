@@ -1,0 +1,79 @@
+{
+  "id": "web-basics",
+  "title": "Web Basics",
+  "description": "HTML, CSS, JavaScript, and browser fundamentals for new developers.",
+  "moneyLadder": [
+    "$100",
+    "$200",
+    "$300",
+    "$500",
+    "$1,000",
+    "$2,000",
+    "$4,000",
+    "$8,000",
+    "$16,000",
+    "$32,000"
+  ],
+  "questions": [
+    {
+      "question": "What does HTML stand for?",
+      "answers": ["HyperText Markup Language", "High Transfer Machine Logic", "Home Tool Markup List", "Hyperlink Text Module Language"],
+      "correctIndex": 0,
+      "explanation": "HTML is the markup language used to structure web pages."
+    },
+    {
+      "question": "Which CSS property changes the text color?",
+      "answers": ["font-style", "text-color", "color", "paint"],
+      "correctIndex": 2,
+      "explanation": "The CSS color property controls text color."
+    },
+    {
+      "question": "Which HTML element loads a JavaScript file?",
+      "answers": ["<style>", "<script>", "<link>", "<source>"],
+      "correctIndex": 1,
+      "explanation": "The script element can load or contain JavaScript."
+    },
+    {
+      "question": "What does DOM stand for?",
+      "answers": ["Document Object Model", "Display Order Method", "Data Output Map", "Document Option Mode"],
+      "correctIndex": 0,
+      "explanation": "The DOM is the browser's object model for a document."
+    },
+    {
+      "question": "Which method is commonly used to fetch JSON from a URL in modern JavaScript?",
+      "answers": ["JSON.load()", "fetch()", "requestFile()", "getJSONSync()"],
+      "correctIndex": 1,
+      "explanation": "fetch() returns a Promise for a network response."
+    },
+    {
+      "question": "Which CSS layout module is designed for one-dimensional layouts?",
+      "answers": ["Flexbox", "Grid", "Canvas", "SVG"],
+      "correctIndex": 0,
+      "explanation": "Flexbox is designed around one main axis."
+    },
+    {
+      "question": "What does a 404 HTTP status usually mean?",
+      "answers": ["Server started", "Resource not found", "Login required", "Request succeeded"],
+      "correctIndex": 1,
+      "explanation": "404 means the requested resource was not found."
+    },
+    {
+      "question": "Which attribute gives an image alternative text?",
+      "answers": ["title", "label", "alt", "caption"],
+      "correctIndex": 2,
+      "explanation": "The alt attribute describes an image for assistive technologies and fallback display."
+    },
+    {
+      "question": "What is localStorage used for?",
+      "answers": ["Styling elements", "Storing small key-value data in the browser", "Opening new tabs", "Compiling CSS"],
+      "correctIndex": 1,
+      "explanation": "localStorage stores strings in the browser without an expiration date."
+    },
+    {
+      "question": "Which JavaScript keyword declares a block-scoped variable that can be reassigned?",
+      "answers": ["const", "let", "class", "static"],
+      "correctIndex": 1,
+      "explanation": "let creates a block-scoped binding whose value can be reassigned."
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+[
+  {
+    "id": "general-knowledge",
+    "title": "General Knowledge",
+    "description": "A classic pub-quiz style ladder with history, science, geography, and culture.",
+    "category": "Mixed",
+    "questionCount": 12,
+    "file": "general-knowledge.json"
+  },
+  {
+    "id": "web-basics",
+    "title": "Web Basics",
+    "description": "HTML, CSS, JavaScript, and browser fundamentals for new developers.",
+    "category": "Technology",
+    "questionCount": 10,
+    "file": "web-basics.json"
+  },
+  {
+    "id": "kanban-guide",
+    "title": "The Kanban Guide",
+    "description": "Definitions, practices, metrics, and flow concepts from The Kanban Guide.",
+    "category": "Kanban",
+    "questionCount": 16,
+    "file": "kanban-guide.json"
+  }
+]
